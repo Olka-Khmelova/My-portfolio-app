@@ -10,6 +10,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <title>Your FrontEnd developer from Ukraine - Olha Khmelova</title>
     <script src="https://kit.fontawesome.com/65559c71d3.js" crossorigin="anonymous"></script>
   </head>
@@ -38,10 +39,10 @@
               <a class="nav-link " href="/index.html" title="Home page">Home </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/about.html" title="About me page">About me</a>
+              <a class="nav-link " href="/about.html" title="About me page">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/works.html" title="My works page">Check my works</a>
+              <a class="nav-link active" href="/works.html" title="My works page">Check my works</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/contacts.html" title="Contacts section">Contact me</a>
@@ -52,71 +53,36 @@
     </nav>
   </header>
   <main>
-    <h1 class="text-center">About me</h1>
+    <h1 class="text-center">My works</h1>
     <h2 class="text-center">Your Front-end developer from Ukraine</h2>
     <h3 class="text-center pt-4">I have no difficulties in carrying out your project</h3>
     <div class="navigation-links mb-5">
       <a href="/contacts.html" class="contact-link" title="Contact section">Contact me</a>
-      <a href="/works.html" class="about-link" title="My works">My works</a>
+      <a href="/about.html" class="about-link" title="About Me page">About me</a>
     </div>
-    <div class="container">
-     <h3 class="mt-5 mb-3">My story</h3>
-     <div class=" border p-3 rounded">
-      <p>
-        I'm fully graduated agrotechnology master with 4 years official work experience. Agronomy was always interesting for me always but my heart wanted passion. My passion from the childhood was Information Technology but it have never came true, because I wanted my mother proud of me and she is assessing with agronomy.  And it seemed to me I was living not my own life. Till today...when i decided to live MY best live right now...
-      </p>
-     </div>
-     <h3 class="mt-5 mb-3">My TECH education</h3>
-     <div class=" border p-3 rounded">
-      <h4 class="mt-3 education">Self education. My Bibles.</h4>
-      <ul>
-        <li>MDN web docs_</li>
-        <li> Medium digest.</li>
-        <li>The Modern JavaScript Tutorial.</li>
-        <li>Endless YouTube videos and original documentations.</li>
-      </ul>
-      <h4 class="mt-5  education">SheCodes courses: Basic, Plus, Responsive.</h4>
-      <p> 
-        Where I learned modern HTML, CSS, vanilla JavaScript, work with  different API, use GitHub and Git, Bootstrap, Netlify.
-      </p>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <img src="/images/shecodes-basics.png" alt="My certificate"  class="img-fluid p-2 mb-4 shadow rounded projects-img" />
-          </div>
-          <div class="col-sm-4">
-            <img src="/images/shecodes-plus.png" alt="My certificate"  class="img-fluid p-2 mb-4 shadow rounded projects-img" />
-          </div>
-          <div class="col-sm-4">
-            <img src="/images/shecodes-plus.png" alt="My certificate" class="img-fluid p-2 mb-4 shadow rounded projects-img"  />
-     </div>
-    </div>
-  </div>
-     <a href="https://www.shecodes.io/graduates/60371-olha-khmelova" target="_blank">Go to my SheCodes profile...</a>
-     <h4 class="mt-5 education">A-level IT school. IT-Generation program, financed Binance to gifted Ukrainians.</h4>
-     <p>Started study  on 26 of October 2022 till now.</p>
-     <p>7 month duration.</p>
-     <p>Technologies: HTML, CSS, advanced JavaScript, GitHub, Git, Bootstrap.</p>
-
-    <h4 class="mt-5  ">Learnly platform</h4>
-     <p>Advanced JavaScript, Science and Computer Technology.</p>
-  </div>
-     <div class=" border p-3 rounded mt-5">
-      <h4>I'm continuing my learning journey, but already comfortable with:</h4>
-      <ul>
-
-        <li>HTML;</li>
-        <li>CSS;</li>
-        <li>JavaScript;</li>
-        <li>Git & GitHub;</li>
-        <li>Bootstrap;</li>
-        <li>Netlify;</li>
-        <li>SC and other different editors;</li>
-        <li>Figma;</li>
-      </ul>
-     </div>
-    </div>
-
+    <div class="gallery section" id="galery">
+        <div class="galery-item">
+            <img src="./images/my-croissant-app.png" alt="project 1" class="gallery-img">
+        </div>
+        <div class="galery-item">
+            <img src="/images/my-weather-app.png" alt="project 2" class="gallery-img">
+        </div>
+        <div class="galery-item">
+            <img src="/images/architecture-company.png" alt="project 3" class="gallery-img">
+        </div>
+        <div class="galery-item">
+            <img src="/images/my-honey-app.png" alt="project 1" class="gallery-img">
+        </div>
+        <div class="galery-item">
+            <img src="/images/architecture-company.png" alt="project 2" class="gallery-img">
+        </div>
+        <div class="galery-item">
+            <img src="/images/my-croissant-app.png" alt="project 3" class="gallery-img">
+        </div>
+        <div class="galery-item">
+            <img src="/images/my-weather-app.png" alt="project 1" class="gallery-img">
+        </div>
+</div>
   </main>
   <footer>
     <h3 class="mt-5 text-center opacity-100">Let's get in touch</h3>
@@ -141,5 +107,34 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="slick/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="slick/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript">
+            $('.gallery').slick({
+              dots: true,
+              arrows: false,
+              infinite: false,
+              speed: 300,
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              responsive: [
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+              ]
+            });
+</script>
   </body>
 </html>
